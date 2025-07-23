@@ -61,8 +61,8 @@ if (-not $process) {
 
     $repo = @{ Name = "PSGallery"; Url = "https://www.powershellgallery.com/api/v2" }
     $modules = @(
-        @{ Name = "DisplayConfig"; Version = "1.1.1" },
-        @{ Name = "MonitorConfig"; Version = "1.0.3" }
+        @{ Name = "DisplayConfig"; Version = "5.1.0" },
+        @{ Name = "MonitorConfig"; Version = "2.0" }
     )
 
     foreach ($mod in $modules) {
